@@ -85,14 +85,14 @@
   text-decoration: underline;
 }
 
-.search-form {
+.form {
   display: flex;
   justify-content: center;
   margin: 20px 0;
   gap: 10px;
 }
 
-.search-form input[type="text"] {
+.form input[type="text"] {
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -100,7 +100,7 @@
   width: 300px;
 }
 
-.search-form button {
+.form button {
   padding: 10px 15px;
   font-size: 16px;
   color: #fff;
@@ -110,6 +110,6 @@
   cursor: pointer;
 }
 
-.search-form button:hover {
+.form button:hover {
   background-color: #0056b3;
 }
