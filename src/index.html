@@ -11,10 +11,19 @@
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
     <main>
-      <!-- Loads the specified .html file -->
+      <form class="search-form">
+        <input type="text" name="searchQuery" placeholder="Search images..." />
+        <button type="submit">Search</button>
+      </form>
+    
+      <div class="gallery"></div>
+    
+      <span class="loader hidden"></span>
+    
       <load src="./partials/vite-promo.html" />
       <load src="./partials/badges.html" />
     </main>
+    
 
     <load src="./partials/footer.html" />
 
